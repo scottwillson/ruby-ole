@@ -75,7 +75,10 @@ class Logger # :nodoc:
 	# in their output
 	def self.new_with_callstack logdev=STDERR
 		log = Logger.new logdev
-		log.level = WARN
+    # Silence complaints about old Excel files:
+    # unused directories
+    # root name was "刀"
+		log.level = ERROR
 		log.formatter = proc do |severity, time, progname, msg|
 			# find where we were called from, in our code
 			callstack = caller.dup
