@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'rake/testtask'
+require 'rake/rdoctask'
 
 require 'rbconfig'
 require 'fileutils'
