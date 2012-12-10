@@ -2,6 +2,6 @@
 
 module Ole # :nodoc:
 	class Storage
-		VERSION = '1.2.11.5'
+		VERSION = '1.2.11.6'
 	end
 end
