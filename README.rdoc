@@ -79,6 +79,7 @@ See the documentation for each class for more details.
 * The excellent idea for using a pseudo file system style interface by providing
   #file and #dir methods which mimic File and Dir, was borrowed (along with almost
   unchanged tests!) from Thomas Sondergaard's rubyzip.
+<<<<<<< HEAD:README
 
 = TODO
 
@@ -114,4 +115,3 @@ See the documentation for each class for more details.
   ole implementations (maybe perl's, and poifs) just to check its in the
   ballpark, with no remaining silly bottlenecks.
 * supposedly vba does something weird to ole files. test that.
-
